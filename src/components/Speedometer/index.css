@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.speedometer-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  height: 100vh;
+}
+.speed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 300px;
+  height: 125px;
+}
+.heading {
+  color: #ffffff;
+  text-align: center;
+}
+.speedometer-heading {
+  color: #ffffff;
+  font-size: 14px;
+}
+.speed-paragraph {
+  font-size: 10px;
+  color: #ffffff;
+}
+.button1 {
+  background-color: #0b69ff;
+  border-radius: 3px;
+  color: #ffffff;
+  border-width: 0px;
+  margin-right: 10px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+}
+.button2 {
+  border-style: 3px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+}
